@@ -1,5 +1,4 @@
-<div id="gitalk-container"></div>
-var gitalk = new Gitalk({
+<div id="gitalk-container">var gitalk = new Gitalk({
   clientID: 'GitHub Application Client ID',
   clientSecret: 'GitHub Application Client Secret',
   repo: 'GitHub repo',
@@ -9,4 +8,5 @@ var gitalk = new Gitalk({
   distractionFreeMode: false  // Facebook-like distraction free mode
 })
 
-gitalk.render('gitalk-container')
+gitalk.render('gitalk-container')</div>
+
